@@ -1,0 +1,29 @@
+#titulo{
+    background: red;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+#grafico-pizza{
+    padding: 0.5rem;
+    background: linear-gradient(#ff0000, #e63a3a);
+}
+
+#grafico-linha{
+    padding: 0.5rem;
+    background: linear-gradient(#e63a3a,#ee6262);
+}
+
+#grafico-colunas{
+    padding: 0.5rem;
+    background: linear-gradient(#ee6262,#f36a6a);
+}
+#grafico-barras{
+    padding: 0.5rem;
+    background: linear-gradient(#f36a6a,#f37878);
+}
+#grafico-barras-json{
+    padding: 0.5rem;
+    background: linear-gradient(#f37878,#f58282);
+}
