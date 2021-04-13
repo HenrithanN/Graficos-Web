@@ -1,8 +1,8 @@
-import { graficoDePizza } from './graficoPizza.js';
-import { graficoDeLinha } from './graficoLinha.js';
-import { graficoDeColunas } from './graficoColunas.js';
-import { graficoDeBarras } from './graficoBarras.js';
-import { graficoDeBarrasJson } from './graficoBarrasJson.js'
+import { graficoDePizza } from './GraficosDePizza/graficoPizza.js';
+import { graficoDeLinha } from './GraficosDeLinhas/graficoLinha.js';
+import { graficoDeColunas } from './GraficosDeColunas/graficoColunas.js';
+import { graficoDeBarras } from './GraficosDeBarras/graficoBarras.js';
+import { graficoDeBarrasJson } from './GraficosDeBarras/graficoBarrasJson.js'
 
 
 google.charts.load('current', {'packages': ['corechart'],'language': 'pt-br'});

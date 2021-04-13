@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficos De Colunas</title>
+    <link rel="shortcut icon" href="../assets/icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="./index.html" class="cabecalho__divisao">
+            <img src="../assets/icones/favicon-32x32.png" alt="Logo Gatito" class="cabecalho__logo">
+            <h1 class="cabecalho__titulo">Graficos Web</h1>
+        </a>
+        <nav>
+            <ul class="cabecalho__navegacao">
+                <li class="cabecalho__item">
+                    <a href="./graficosDeBarras.html">Graficos de Barras</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="./graficosDeColunas.html">Graficos de Colunas</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="./graficosDeLinhas.html">Graficos de Linhas</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="./graficosDePizza.html">Graficos de Pizza</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <section class="navegacao">
+            <div class="navegacao__fundo">
+                <!--Titulo-->
+                <h1 class="navegacao__titulo">
+                    Graficos de Colunas
+                    <!--BreadCrumb-->
+                    <div class="navegacao__breadcrumb breadcrumb">
+                        <a href="./index.html" class="breadcrumb__link">Home</a>
+                        <img class="breadcrumb__imagem" src="../assets/img/arrow.svg" alt="seta de anterior">
+                        <a href="./graficosDeColunas.html" class="breadcrumb__link">Graficos de Colunas</a>
+                    </div>
+                </h1>
+            </div>
+        </section>    
+        <section class="container">
+            <div class="grafico" id="grafico-colunas"></div>
+        </section>
+    </body>
+    
+    <footer class="rodape">
+        <a href="http://github.com/henrithanN"target="_blank">          
+            <img src="../assets/img/github.png" alt="icone github" class="rodape__logo">
+        </a>
+        <a href="https://www.linkedin.com/in/jonathan-henrique-1b4a69144/" target="_blank">
+            <img src="../assets//img//linkedin.png" alt="icone linkedin" class="rodape__logo">
+        </a>
+    </footer>
+    
+    <script type="text/javascript"src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="module" src="../js/GraficosDeColunas/index.js"></script>
+</body>
+</html>
