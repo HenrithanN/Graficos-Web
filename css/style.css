@@ -34,11 +34,17 @@
 }
 
 .cabecalho__item{
+    text-align: center;
     position: relative;
-    margin-left: 3.75rem;
+    margin-right: 2.75rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 .cabecalho__item:hover{
-    border-bottom: 2px solid #f36a6a;
+    background: white;
+    color: #000000AA;
+    cursor: pointer;
 }
 
 /*Graficos*/
@@ -60,9 +66,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .navegacao__fundo {
-    background-color: #0099ffaa;
+    background-color: #f36a6a;
     text-align: center;
     padding: 1.2rem;
+    border-bottom: 2px solid #000000AA;
   }
   .navegacao__titulo {
     font-size: 1.2rem;

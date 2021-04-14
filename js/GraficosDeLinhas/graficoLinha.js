@@ -30,7 +30,7 @@ export const  graficoDeLinha = () =>{
             legend: 'none'
         }
 
-        const graficoLinha = new google.visualization.LineChart(document.querySelector('#grafico-linha'));
+        const graficoLinha = new google.visualization.LineChart(document.querySelector('#grafico-linha-1'));
         
         graficoLinha.draw(tabelaLinha, opcoes)
     
