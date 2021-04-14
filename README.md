@@ -18,3 +18,6 @@
 <ul>Consumir dados Json em um Gráfico</ul>
 <ul>Criação de Gráficos com Google Chart</ul>
 
+# Observação
+
+<ul>Necessário o Uso do LiveServer para que os scripts não sejam bloqueados pelo cors</ul>
